@@ -1,9 +1,11 @@
-
+import menu from "./data/data"
+import Button from "./Button"
 
 function App() {
-
+console.log(menu)
   return (
-    <h1>SASA</h1>
+    <Button>Add to cart</Button>
+    
   )
 }
 
