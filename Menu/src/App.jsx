@@ -5,7 +5,7 @@ import Item from "./Item"
 function App() {
 console.log(menu)
   return (
-    <div>
+    <div className="container">
     <Button>Add to cart</Button>
     <section>
       <ul>
