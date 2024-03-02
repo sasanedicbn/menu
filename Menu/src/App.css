@@ -7,3 +7,49 @@
     background-color: rgb(186, 186, 186);
     padding: 50px;
 }
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 560px;
+  
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn:active {
+    background-color: #0056b3;
+  }
+  li{
+   list-style: none;
+   width: 380px;
+   height: 150px;
+   margin: 8px;
+  }
+
+  .item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+ }
+  p span{
+    padding: 2px;
+    font-weight: bold;
+  }
+  p{
+    color: rgb(50, 49, 49);
+  }
+  .item-information{
+    padding: 10px;
+    border: 1px solid rgb(237, 236, 236);
+
+  }
