@@ -1,10 +1,18 @@
 import menu from "./data/data"
 import Button from "./Button"
+import Item from "./Item"
 
 function App() {
 console.log(menu)
   return (
+    <div>
     <Button>Add to cart</Button>
+    <section>
+      <ul>
+        <Item data={menu}/>
+      </ul>
+    </section>
+    </div>
     
   )
 }
