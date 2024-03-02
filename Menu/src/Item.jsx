@@ -6,7 +6,6 @@ export default function Item({ data }) {
                 <li key={item.id}>
                     <div>
                         <p>{item.id}</p>
-                        <img src={item.img} alt={item.title} />
                         <p>Title: {item.title}</p>
                         <p>Category: {item.category}</p>
                         <p>Price: {item.price}</p>

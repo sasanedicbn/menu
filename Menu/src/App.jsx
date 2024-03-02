@@ -1,7 +1,7 @@
 import menu from "./data/data"
 import Button from "./Button"
 import Item from "./Item"
-
+import '../src/App.css'
 function App() {
 console.log(menu)
   return (
