@@ -5,7 +5,7 @@ export default function Item({ data }) {
             {data.map((item) => (
                 <li key={item.id}>
                     <div className="item-information">
-                        <p><span>Title:</span> {item.title}</p>
+                        <p className="title"> {item.title}</p>
                         <p><span>Category:</span> {item.category}</p>
                         <p><span>Price:</span> {item.price}</p>
                         <p><span>Description:</span> {item.desc}</p>

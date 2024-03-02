@@ -3,7 +3,7 @@ import Button from "./Button"
 import Item from "./Item"
 import '../src/App.css'
 function App() {
-console.log(menu)
+
   return (
     <div className="container">
     <Button>Add to cart</Button>
