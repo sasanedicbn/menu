@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 const SingleItem = (item) => {
+    const[count,setCount] = useState(0)
     console.log(item)
     return(
         <li key={item.id} style={{ border: `2px solid ${item.borderColor}`}} >
@@ -7,6 +10,8 @@ const SingleItem = (item) => {
             <p><span>Category:</span> {item.category}</p>
             <p><span>Price:</span> {item.price}</p>
             <p><span>Description:</span> {item.desc}</p>
+            <button>Increment</button>
+            <p>{count}</p>
         </div>
     </li>
     )
