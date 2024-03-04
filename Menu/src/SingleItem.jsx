@@ -10,7 +10,7 @@ const SingleItem = (item) => {
             <p><span>Category:</span> {item.category}</p>
             <p><span>Price:</span> {item.price}</p>
             <p><span>Description:</span> {item.desc}</p>
-            <button>Increment</button>
+            <button onClick={() => setCount(count+1)}>Increment</button>
             <p>{count}</p>
         </div>
     </li>
