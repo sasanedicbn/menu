@@ -7,7 +7,10 @@ export default function Item({ data, setBorderColor,borderColor }) {
         const b = Math.floor(Math.random() * 256);
         return `rgb(${r}, ${g}, ${b})`;
     }
-
+     function changeBorderColor  ()  {
+        const randomColor = generateRandomColor()
+      setBorderColor(randomColor)
+       }
         return (
             <>
         <Button >Random border color</Button>
