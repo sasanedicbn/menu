@@ -16,7 +16,7 @@ export default function Item({ data, setBorderColor,borderColor }) {
         <Button onClick={changeBorderColor}>Random border color</Button>
         <div className="item">
             {data.map((item,index) => (
-             <SingleItem key={index} {...item} />
+             <SingleItem key={index} {...item} borderColor={borderColor} />
             ))}
         </div>
         </>
