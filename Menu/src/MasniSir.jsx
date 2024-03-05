@@ -1,4 +1,4 @@
-function MasniSir () {
+function MasniSir ({isActive}) {
 return(
     <>
     <button className="btn" style={{ backgroundColor: ` ${isActive === 'green' ? 'green' : 'red'}` }}>BTN 1</button>
