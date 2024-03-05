@@ -15,7 +15,7 @@ if(isActive === 'green'){
   setisActive('green')
 }
 }
-
+setTimeout(changeBtns, 2000);
 
 
   return (
