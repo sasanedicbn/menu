@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const SingleItem = (item) => {
     const[count,setCount] = useState(0)
-    console.log(item)
+    console.log(count)
     return(
         <li key={item.id} style={{ border: `2px solid ${item.borderColor}`}} >
         <div className="item-information">
