@@ -27,7 +27,7 @@ setTimeout(changeBtns, 2000);
       </ul>
     </section>
     <section>
-      
+      <MasniSir />
     </section>
     </div>
     
