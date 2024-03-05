@@ -1,8 +1,8 @@
 function MasniSir () {
 return(
     <>
-    <button className="btn" }>BTN 1</button>
-    <button className="btn"  }> BTN 2</button>
+    <button className="btn" style={{ backgroundColor: ` ${isActive === 'green' ? 'green' : 'red'}` }}>BTN 1</button>
+    <button className="btn" style={{ backgroundColor: ` ${isActive === 'green' ? 'red' : 'green'}` }}> BTN 2</button>
     </>
 )
 }
