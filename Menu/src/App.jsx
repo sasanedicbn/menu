@@ -8,6 +8,13 @@ function App() {
 const [borderColor, setBorderColor] = useState('blue')
 const [isActive, setisActive] = useState('green')
 console.log(isActive)
+function changeBtns(){
+if(isActive === 'green'){
+ setisActive('red')
+} else{
+  setisActive('green')
+}
+}
 
 
 
