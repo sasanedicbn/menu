@@ -7,12 +7,10 @@ import { useState } from "react"
 function App() {
 const [borderColor, setBorderColor] = useState('blue')
 const [isActive, setisActive] = useState(true);
-// const [isLoading, setIsLoading] = useState(true);
-console.log(isActive)
-// console.log(isLoading)
+
 const changeBtns = () => {
   setisActive( !isActive);
-  // setisActive(!isLoading);
+
 };
 setTimeout(changeBtns, 4000);
 
